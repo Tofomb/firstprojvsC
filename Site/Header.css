@@ -1,0 +1,48 @@
+body{font-family: sans-serif;
+    width: 1024px;
+   
+    background-color: lightgoldenrodyellow;
+        }
+
+header{
+    text-transform: uppercase;
+    position: fixed;
+    display: inline;
+    background-color: red;
+    width: 100%;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header a{
+    display: inline;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+header ul li{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+header h1{
+    float: left;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  background-color: #70b1a5;
+}
